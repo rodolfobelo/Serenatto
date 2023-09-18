@@ -67,6 +67,6 @@ input[type="checkbox"]:focus {
   background-color: var(--marrom-escuro);
 }
 
-input[type=range] {
-  /* background: #816D4F; */
+input[type=range]::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
 }
